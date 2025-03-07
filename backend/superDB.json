@@ -1,0 +1,17 @@
+[
+    {
+      "id": "pizza",
+      "name": "Pizza Margherita",
+      "image": "bilder/pizza.jpg",
+      "zutaten": ["Mehl", "Tomaten", "Mozzarella", "Basilikum"],
+      "anleitung": "Backofen auf 220°C vorheizen. ..."
+    },
+    {
+      "id": "pasta",
+      "name": "Spaghetti Carbonara",
+      "image": "bilder/pasta.jpg",
+      "zutaten": ["Spaghetti", "Eier", "Speck", "Parmesan"],
+      "anleitung": "Die Spaghetti kochen und in einer Pfanne ..."
+    }
+  ]
+  
