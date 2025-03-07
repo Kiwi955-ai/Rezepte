@@ -4,10 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Super Pfannkuchen</title>
+   <style>
+    body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+
+h3 {
+    right: 10px; 
+
+}
+.Zutaten{
+    color: white;
+    font-size: 50;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+.Zubereitung{
+    color: white;
+    font-size: 50;
+    right: 10px;
+    position: absolute;
+    top: 10px;
+}
+
+.Bilder {
+    display: flex ;
+    gap: 10px; 
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 800px; 
+}
+
+img {
+    width: 350px;
+    border-radius: 40px;
+    display: block;
+    margin: 10px auto;
+}
+   </style>
+   
+
 </head>
 <body>
-    <div>
-    <img src="img/pfannkuchen-.jpg" alt="Bild von Pfannkuchen">
+
+    <div class="header">
+        <h1>Super Pfannkuchen</h1>
     </div>
+    <p class="Zutaten">
+        Zutaten
+    </p>
+    <p class="Zubereitung">
+        Zubereitung
+    </p>
+
+    <div>
+        <img src="img/pfannkuchen-.jpg" alt="Pfannkuchen">
+       
+        </div>
+
+ 
 </body>
 </html>
