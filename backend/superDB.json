@@ -1,17 +1,119 @@
 [
     {
-      "id": "pizza",
-      "name": "Pizza Margherita",
-      "image": "bilder/pizza.jpg",
-      "zutaten": ["Mehl", "Tomaten", "Mozzarella", "Basilikum"],
-      "anleitung": "Backofen auf 220°C vorheizen. ..."
+        "id": 1,
+        "name": "brownies",
+        "image": "brownies.jpg",
+        "zutaten": [
+            "Null"
+        ],
+        "anleitung": "Null"
     },
     {
-      "id": "pasta",
-      "name": "Spaghetti Carbonara",
-      "image": "bilder/pasta.jpg",
-      "zutaten": ["Spaghetti", "Eier", "Speck", "Parmesan"],
-      "anleitung": "Die Spaghetti kochen und in einer Pfanne ..."
+        "id": 2,
+        "name": "Chicken_Wings",
+        "image": "Chicken_Wings.webp",
+        "zutaten": [
+            "Null"
+        ],
+        "anleitung": "Null"
+    },
+    {
+        "id": 3,
+        "name": "Mozzarella-Sticks",
+        "image": "Mozzarella-Sticks.jpg",
+        "zutaten": [
+            "Null"
+        ],
+        "anleitung": "Null"
+    },
+    {
+        "id": 4,
+        "name": "crispy-chicken",
+        "image": "crispy-chicken.jpg",
+        "zutaten": [
+            "Null"
+        ],
+        "anleitung": "Null"
+    },
+    {
+        "id": 5,
+        "name": "Teigtaschen",
+        "image": "Teigtaschen.jpg",
+        "zutaten": [
+            "Null"
+        ],
+        "anleitung": "Null"
+    },
+    {
+        "id": 6,
+        "name": "pizza-muffins",
+        "image": "pizza-muffins.jpeg",
+        "zutaten": [
+            "Null"
+        ],
+        "anleitung": "Null"
+    },
+    {
+        "id": 7,
+        "name": "pfannkuchen-",
+        "image": "pfannkuchen-.jpg",
+        "zutaten": [
+            "Null"
+        ],
+        "anleitung": "Null"
+    },
+    {
+        "id": 8,
+        "name": "Super Frühstück",
+        "image": "Super Frühstück.webp",
+        "zutaten": [
+            "Null"
+        ],
+        "anleitung": "Null"
+    },
+    {
+        "id": 9,
+        "name": "cookies",
+        "image": "cookies.jpg",
+        "zutaten": [
+            "Null"
+        ],
+        "anleitung": "Null"
+    },
+    {
+        "id": 10,
+        "name": "gesunde-pizza",
+        "image": "gesunde-pizza.jpg",
+        "zutaten": [
+            "Null"
+        ],
+        "anleitung": "Null"
+    },
+    {
+        "id": 11,
+        "name": "pizza",
+        "image": "pizza.jpg",
+        "zutaten": [
+            "Null"
+        ],
+        "anleitung": "Null"
+    },
+    {
+        "id": 12,
+        "name": "Hühnchen mit Reis",
+        "image": "Hühnchen mit Reis.jpg",
+        "zutaten": [
+            "Null"
+        ],
+        "anleitung": "Null"
+    },
+    {
+        "id": 13,
+        "name": "Burger",
+        "image": "Burger.jpg",
+        "zutaten": [
+            "Null"
+        ],
+        "anleitung": "Null"
     }
-  ]
-  
+]

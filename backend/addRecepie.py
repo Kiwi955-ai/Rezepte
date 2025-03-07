@@ -1,17 +1,16 @@
 import json
 import os
 
-def add_rezept( name, image, zutaten, anleitung, id):
+def add_rezept( id ,name, image, zutaten, anleitung):
     dateipfad ="superDB.json"
     neues_rezept = {
         "id": id,
         "name": name,
         "image": image,
-        "zutaten": zutaten,
+        "zutaten": zutaten, #in array form
         "anleitung": anleitung
     }
 
-    # Prüfen, ob die Datei existiert und lesen
     if os.path.exists(dateipfad):
         with open(dateipfad, "r", encoding="utf-8") as file:
             try:
@@ -30,4 +29,9 @@ def add_rezept( name, image, zutaten, anleitung, id):
 
     print(f"Rezept '{name}' wurde hinzugefügt.")
 
+ordner_pfad = "/home/nnnkbp/Rezepte-main/Rezepte/img"
 
+dateien_liste = os.listdir(ordner_pfad)
+for i in range(len(dateien_liste)):
+    name  = dateien_liste[i].split(".")[0]
+    add_rezept(i+1,name,dateien_liste[i],["Null"],"Null")
